@@ -27,7 +27,8 @@
         android:id="@+id/truebtn"
         android:drawableEnd="@drawable/thumpsup"
         android:layout_alignTop="@+id/falsebtn"
-        android:layout_toStartOf="@+id/falsebtn" />
+        android:layout_toStartOf="@+id/falsebtn"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +36,8 @@
         android:text="@string/false_str"
         android:id="@+id/falsebtn"
         android:layout_centerInParent="true"
-        android:drawableEnd="@drawable/thumpsdown"/>
+        android:drawableEnd="@drawable/thumpsdown"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -45,7 +47,8 @@
         android:gravity="center"
         android:layout_alignTop="@+id/falsebtn"
         android:layout_toEndOf="@+id/falsebtn"
-        android:drawableEnd="@drawable/nextarrow" />
+        android:drawableEnd="@drawable/nextarrow"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <Button
         android:layout_width="wrap_content"
