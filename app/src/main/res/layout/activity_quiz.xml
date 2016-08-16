@@ -18,7 +18,8 @@
         android:layout_toEndOf="@+id/resetbtn"
         android:layout_alignParentEnd="false"
         android:layout_alignParentStart="false"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:drawableEnd="@drawable/thumpsup"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -27,7 +28,8 @@
         android:id="@+id/nxtbtn"
         android:layout_below="@+id/truebtn"
         android:layout_centerHorizontal="true"
-        android:gravity="center" />
+        android:gravity="center"
+        android:drawableEnd="@drawable/nextarrow"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -62,6 +64,7 @@
         android:text="@string/false_str"
         android:id="@+id/falsebtn"
         android:layout_alignTop="@+id/truebtn"
-        android:layout_toEndOf="@+id/truebtn" />
+        android:layout_toEndOf="@+id/truebtn"
+        android:drawableEnd="@drawable/thumpsdown"/>
 
 </RelativeLayout>
