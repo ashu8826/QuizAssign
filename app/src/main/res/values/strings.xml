@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Quiz_Assignfirst</string>
+    <string name="ques_str"> is a prime??</string>
+    <string name="true_str">True</string>
+    <string name="false_str">False</string>
+    <string name="nxt_str">Next Question</string>
+    <string name="reset_str">Reset</string>
+    <string name="my_score_str">My Score</string>
 </resources>
