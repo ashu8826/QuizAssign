@@ -9,29 +9,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mc.ashu16012.quiz_assignfirst.QuizActivity">
 
-
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/true_str"
-        android:id="@+id/truebtn"
-        android:layout_toEndOf="@+id/resetbtn"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentStart="false"
-        android:layout_centerInParent="true"
-        style="?android:attr/borderlessButtonStyle"
-        android:drawableEnd="@drawable/thumpsup"/>
+        android:id="@+id/l1"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_str"
+            android:id="@+id/truebtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableEnd="@drawable/thumpsup"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_str"
+            android:id="@+id/falsebtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableEnd="@drawable/thumpsdown"/>
+    </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nxt_str"
         android:id="@+id/nxtbtn"
-        android:layout_below="@+id/truebtn"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
         style="?android:attr/borderlessButtonStyle"
-        android:drawableEnd="@drawable/nextarrow"/>
+        android:drawableEnd="@drawable/nextarrow"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/l1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -59,15 +67,5 @@
         android:minHeight="100dp"
         android:gravity="center"
         android:textSize="20sp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/false_str"
-        android:id="@+id/falsebtn"
-        android:layout_alignTop="@+id/truebtn"
-        android:layout_toEndOf="@+id/truebtn"
-        style="?android:attr/borderlessButtonStyle"
-        android:drawableEnd="@drawable/thumpsdown"/>
 
 </RelativeLayout>
