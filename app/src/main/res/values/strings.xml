@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Quiz_Assignfirst</string>
+    <string name="app_name">QuizApp_MC2</string>
+    <string name="Cheat_Activity_name">Cheat Sheet</string>
+    <string name="Hint_Activity_name">Hint Page</string>
     <string name="ques_str"> is a prime??</string>
     <string name="true_str">True</string>
     <string name="false_str">False</string>
@@ -8,4 +10,7 @@
     <string name="my_score_str">My Score</string>
     <string name="hint_str">Hint</string>
     <string name="cheat_str">cheat</string>
+    <string name="show_me_answer">Show me answer</string>
+    <string name="give_me_hint">Give me a hint</string>
+    <string name="demo">Do want help??</string>
 </resources>
