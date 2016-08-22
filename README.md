@@ -1,2 +1,2 @@
 # QuizAssign
-to submit assignment 1
+to submit assignment 2
